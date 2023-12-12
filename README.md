@@ -109,4 +109,4 @@ The model was evaluated on a separate test set of unseen reviews. The accuracy a
 These results indicate that this pipeline can effectively categorize text data with high accuracy, even with the subtle nuances present in restaurant reviews.
 
 ## What Next?
-- [ ] Fix bugs in in the active learning approach for updating the few-shot model with newly labeled data.
+- [ ] Fix bugs in the active learning approach for updating the few-shot model with newly labeled data.
