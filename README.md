@@ -105,10 +105,7 @@ We applied the text classification pipeline to a dataset of restaurant reviews t
 
 The model was evaluated on a separate test set of unseen reviews. The accuracy achieved for each category was as follows:
 
-[](images/fig.html)
-
-<iframe src="images/fig.html" width="600" height="400"></iframe>
-
+![](images/newplot.png)
 These results indicate that this pipeline can effectively categorize text data with high accuracy, even with the subtle nuances present in restaurant reviews.
 
 ## What Next?
