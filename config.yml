@@ -1,0 +1,19 @@
+Restaurant_Reviews:
+  data info:
+    Business area: Food
+    Label type: Uni label
+    Source: Google map
+    Year: 2021
+    text_col: Review
+  rg_dataset_name: restaurant-reviews
+  supervised-model-label_map:
+    Food quality- terrible, gross, dry, sucked, fried: 2
+    Place feedback positive vs negative: 0
+    Service variability slow vs excellent: 1
+  supervised-model-path: ../models/Restaurant_Reviews/Supervised_model/scfhs_topic_classifier/
+  supervised-model-score-path: ../models/Restaurant_Reviews/Supervised_model/scores.pkl
+  target_topics:
+    0: Service variability slow vs excellent
+    2: Place feedback positive vs negative
+    7: Food quality- terrible, gross, dry, sucked, fried
+  unsupervised-model-path: ../models/Restaurant_Reviews/Unsupervised_model
